@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web de Ejemplo</title>
+    <style>
+        /* ======== ESTILOS GENERALES ======== */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* ======== SECCIÓN PRINCIPAL ======== */
+        .hero {
+            background-color: #e0ecff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h2 {
+            color: #0078d7;
+            font-size: 2.2em;
+        }
+
+        .hero p {
+            font-size: 1.1em;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #0078d7;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #005ea6;
+        }
+
+        /* ======== SECCIÓN SOBRE MÍ ======== */
+        .sobre {
+            background-color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .sobre h2 {
+            color: #0078d7;
+        }
+
+        .sobre p {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* ======== SECCIÓN CONTACTO ======== */
+        .contacto {
+            background-color: #f0f0f0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .contacto a {
+            color: #0078d7;
+            text-decoration: none;
+        }
+
+        .contacto a:hover {
+            text-decoration: underline;
+        }
+
+        /* ======== PIE DE PÁGINA ======== */
+        footer {
+            background-color: #0078d7;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Página Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h2>Bienvenido a mi sitio web</h2>
+        <p>Este es un ejemplo de una página web simple creada con HTML y CSS.</p>
+        <a href="#sobre" class="btn">Conocer más</a>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <h2>Sobre mí</h2>
+        <p>Soy un estudiante de desarrollo web. Me encanta aprender sobre diseño y programación de páginas web modernas.</p>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas comunicarte conmigo, envíame un correo a: 
+            <a href="mailto:ejemplo@email.com">ejemplo@email.com</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2025 Mi Página Web de Ejemplo — Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
